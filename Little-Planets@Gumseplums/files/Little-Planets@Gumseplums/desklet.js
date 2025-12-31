@@ -1,23 +1,17 @@
 const Desklet = imports.ui.desklet;
 
-const UUID = "Little-Planets@Gumseplums";
-
-
-
-function MyDesklet(metadata, desklet_id) {
-    this.init(metadata, desklet_id)
+function HelloDesklet(metadata, desklet_id) {
+    this._init(metadata, desklet_id);
 }
 
-MyDesklet.prototype = {
-    _proto_: Desklet.Desklet.prototype,
+HelloDesklet.prototype = {
+    __proto__: Desklet.Desklet.prototype,
 
-
-	_init: function(metadata, desklet_id){
-	    Desklet.Desklet.prototype._init.call(this, metadata);
-
+    _init: function(metadata, desklet_id) {
+        Desklet.Desklet.prototype._init.call(this, metadata, desklet_id);
     }
 }
 
 function main(metadata, desklet_id) {
-    return new MyDesklet(metadata, desklet_id);
+    return new HelloDesklet(metadata, desklet_id);
 }
