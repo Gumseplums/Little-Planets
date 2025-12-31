@@ -1,0 +1,12 @@
+{
+    "planet-size": {
+        "type": "spinbutton",
+        "default": 100,
+        "min": 20,
+        "max": 1000,
+        "step": 5,
+        "units": "px",
+        "description": "Planet Size"
+    } 
+
+}

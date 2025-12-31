@@ -1,1 +1,7 @@
-
+{
+    "uuid": "Little-Planets@Gumseplums",
+    "description": "Place and decorate your desktop with customizable Planets!",
+    "name": "Little Planets",
+    "version": "0.1",
+    "max-instances": -1
+}
