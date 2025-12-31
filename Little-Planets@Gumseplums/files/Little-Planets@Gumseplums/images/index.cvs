@@ -1,0 +1,9 @@
+Name,   Image path,
+
+Base-Plain-Gray,        /images/Bases/Plain/Base-Plain-Gray.png
+Base-BigPixel-Gray,     /images/Bases/BigPixel/Base-BigPixel-Gray.png
+Base-SmallPixel-Gray,   /images/Bases/SmallPixel/Base-SmallPixel-Gray.png
+
+Outline-Planet,         /images/Outlines/Planet.png
+Outline-Moon,           /images/Outlines/Moon.png
+Outline-Ring-One,       /images/Outlines/Planet-Ring-One.png
