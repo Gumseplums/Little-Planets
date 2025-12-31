@@ -3,7 +3,7 @@ const GLib = imports.gi.GLib;
 const St = imports.gi.St;
 
 const UUID = "Little-Planets@Gumseplums";
-const DESKLET_ROOT = imports.ui.deskletmanager.deskletMeta[UUID].path;
+const DESKLET_ROOT = imports.ui.deskletManager.deskletMeta[UUID].path;
 
 function MyDesklet(metadata, desklet_id) {
     this.init(metadata, desklet_id)
